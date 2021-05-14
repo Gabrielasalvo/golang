@@ -18,5 +18,7 @@ func main() {
 
 	media := total / float64(len(notas))
 
-	fmt.Printf("A media é %.2f", media)
+	fmt.Printf("A media é %f %f", media, media/2)
+	console.log(`${media}`)
+	console.log("minha nota é {}", media)
 }
